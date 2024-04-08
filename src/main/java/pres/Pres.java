@@ -8,6 +8,6 @@ public class Pres {
         DaoImpl dao = new DaoImpl();
         MetierImpl metier = new MetierImpl(dao);
         //metier.setDao(dao);
-        System.out.println(metier.calcul());
+        System.out.println("Res = " + metier.calcul());
     }
 }
